@@ -1,0 +1,25 @@
+{
+    "name": "dpi/namespace-shortener-php-cs-fixer",
+    "description": "PHP-CS-Fixer rule that imports configured namespace roots and rewrites every usage to go through them",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "keywords": ["php-cs-fixer", "fixer", "namespace", "imports", "coding-standard", "dev"],
+    "homepage": "https://dpi.github.io/namespace-shortener/",
+    "support": {
+        "docs": "https://dpi.github.io/namespace-shortener/",
+        "source": "https://github.com/dpi/namespace-shortener"
+    },
+    "require": {
+        "php": ">=8.3",
+        "dpi/namespace-shortener-core": "^0.1",
+        "friendsofphp/php-cs-fixer": "^3.95"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dpi\\NamespaceShortener\\PhpCsFixer\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
