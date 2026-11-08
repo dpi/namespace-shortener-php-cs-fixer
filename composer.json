@@ -11,7 +11,7 @@
     },
     "require": {
         "php": ">=8.3",
-        "dpi/namespace-shortener-core": "^0.1",
+        "dpi/namespace-shortener-core": "self.version",
         "friendsofphp/php-cs-fixer": "^3.95"
     },
     "autoload": {
